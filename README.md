@@ -395,9 +395,8 @@ https://www.kaggle.com/datasets/priyamchoksi/credit-card-transactions-dataset
 | Jupyter Notebook | Development and presentation environment |
 
 ---
----
 
-## 🔎 Conclusion
+## Conclusion
 
 The most important decisions in this project were not 
 made in code — they were made before a single line 
