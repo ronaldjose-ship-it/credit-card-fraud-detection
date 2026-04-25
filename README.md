@@ -395,5 +395,45 @@ https://www.kaggle.com/datasets/priyamchoksi/credit-card-transactions-dataset
 | Jupyter Notebook | Development and presentation environment |
 
 ---
+---
 
+## 🔎 Conclusion
+
+The most important decisions in this project were not 
+made in code — they were made before a single line 
+was written.
+
+**Supervised vs Unsupervised**  
+When the dataset revealed explicit fraud labels, the 
+choice of Supervised Learning was not a preference 
+— it was a logical necessity. An unsupervised approach 
+would have searched for statistical outliers without 
+understanding what fraud actually looks like. Supervised 
+Learning granted the models something far more valuable 
+than pattern recognition — it granted them definition. 
+They did not search for the unusual. They searched for 
+the fraudulent. That distinction determined everything 
+that followed.
+
+**Logistic Regression vs XGBoost**  
+Both models received identical data, identical 
+preprocessing, and identical opportunities to learn. 
+What separated them was not effort — it was capability. 
+Logistic Regression drew a straight line through a 
+problem that does not have straight lines. Fraud hides 
+in the intersections — a small transaction, at 3 AM, 
+from a merchant 2,000 kilometres away. No single feature 
+condemns it. The combination does. Logistic Regression 
+cannot see combinations. XGBoost was built for them.
+
+The result speaks for itself — 0.07 precision against 
+0.87. Ninety-three false accusations for every seven 
+criminals caught, against eight criminals caught for 
+every one innocent person inconvenienced.
+
+This project reinforced a principle that transcends 
+machine learning: understanding the problem deeply 
+always matters more than solving it quickly.
+
+---
 *Submitted for CSI GRIET Technical Recruitment — Round 2*
